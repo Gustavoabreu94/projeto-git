@@ -6,8 +6,10 @@ function toggleMode() {
   const getProfileImage = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    getProfileImage.setAttribute("src", "./assests/avatar-light.png")
+    getProfileImage.setAttribute("src", "./assets/avatar-light.png")
+    getProfileImage.setAttribute("alt", "Imagem com oculos escuro")
   } else {
-    getProfileImage.setAttribute("src", "./assests/avatar-light.png")
+    getProfileImage.setAttribute("src", "./assets/avatar.png")
+    getProfileImage.setAttribute("alt", "Imagem sem oculos")
   }
 }
